@@ -1,11 +1,3 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.4"
-gem "webrick"
-gem "csv"
-gem "jekyll-avatar"
-gem "jekyll-feed"
-gem "jekyll-mentions"
-gem "jekyll-seo-tag"
-gem "jekyll-sitemap"
-gem "jekyll-redirect-from"
+gem "github-pages", group: :jekyll_plugins
