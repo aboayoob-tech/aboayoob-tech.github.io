@@ -10,6 +10,6 @@ Jekyll 3.9.3 is a bug fix release loosening version restrictions for
 dependencies `i18n` and `tzinfo` gems. You can now use Jekyll v3.9 with
 newer versions of these gems!
 
-More details in [the full release notes]({% link _docs/history.md %}#v3-9-3).
+
 
 Happy Jekylling!
