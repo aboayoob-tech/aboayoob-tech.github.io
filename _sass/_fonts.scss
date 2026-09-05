@@ -1,6 +1,51 @@
 // *.woff2 support: Chrome 26+, Opera 23+, FireFox 3.6
 // *.woff support: Chrome 6+, Firefox 3.6+, IE9+, Safari 5.1+
 
+@font-face {
+  font-family: "Noto Naskh Arabic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/NotoNaskhArabic-Regular.woff2") format("woff2"),
+       url("fonts/NotoNaskhArabic-Regular.woff") format("woff"),
+       url("fonts/NotoNaskhArabic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Naskh Arabic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/NotoNaskhArabic-Bold.woff2") format("woff2"),
+       url("fonts/NotoNaskhArabic-Bold.woff") format("woff"),
+       url("fonts/NotoNaskhArabic-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Kufi Arabic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/NotoKufiArabic-Regular.woff2") format("woff2"),
+       url("fonts/NotoKufiArabic-Regular.woff") format("woff"),
+       url("fonts/NotoKufiArabic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Kufi Arabic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/NotoKufiArabic-Bold.woff2") format("woff2"),
+       url("fonts/NotoKufiArabic-Bold.woff") format("woff"),
+       url("fonts/NotoKufiArabic-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kawkab Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/KawkabMono-Regular.woff2") format("woff2"),
+       url("fonts/KawkabMono-Regular.woff") format("woff"),
+       url("fonts/KawkabMono-Regular.ttf") format("truetype");
+}
+
 // Lato Light (300)
 @font-face {
   font-family: 'Lato';
