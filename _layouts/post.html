@@ -5,22 +5,43 @@ layout: default
 <style>
   .post-container {
     width: 88%;
-    max-width: 900px; /* عرض مثالي ومريح لقراءة المقالات المفردة */
+    max-width: 900px;
     margin: 40px auto;
     box-sizing: border-box;
   }
+  
   .post-container article {
     background: #fff;
-    padding: 30px;
+    padding: 40px;
     border-radius: 8px;
+    color: #222 !important; /* لون خط داكن وواضح */
+    text-shadow: none !important; /* إزالة الظل المزعج */
+  }
+
+  /* ضمان ظهور عناوين المقال وروابطه بشكل صحيح داخل الحاوية البيضاء */
+  .post-container article h1,
+  .post-container article h2,
+  .post-container article h3,
+  .post-container article h4,
+  .post-container article p,
+  .post-container article li {
+    color: #222 !important;
+    text-shadow: none !important;
+  }
+
+  .post-container article a {
+    color: #0366d6; /* لون روابط مميز داخل المقال */
+    text-decoration: underline;
   }
 </style>
 
 <div class="post-container">
   <article itemscope itemtype="http://schema.org/Article">
-    <h1 itemprop="headline" class="post-title">{{ page.title }}</h1>
+    <h1 itemprop="headline" class="post-title" style="margin-top: 0; border-bottom: 1px solid #eaecef; padding-bottom: 15px;">
+      {{ page.title }}
+    </h1>
     
-    <div class="post-meta" style="margin-bottom: 20px; color: #666; font-size: 0.9rem;">
+    <div class="post-meta" style="margin-bottom: 25px; color: #586069; font-size: 0.9rem;">
       <span itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">
         {{ page.date | date_to_string }}
       </span>
