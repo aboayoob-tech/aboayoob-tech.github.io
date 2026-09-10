@@ -3,16 +3,16 @@ layout: default
 ---
 
 <style>
-.my-container {
-  width: 88%; /* تفعيل نسبة 88% من عرض الشاشة الكلي */
-  max-width: 1200px; /* لمنع تمدده بشكل مبالغ فيه على الشاشات الضخمة جداً */
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-}
+  .news, .news .grid {
+    width: 88% !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
 </style>
+
 <section class="news">
-  <div class="my-container">
   <div class="grid">
     {% include news_contents_mobile.html -%}
     <div class="unit four-fifths">
@@ -21,5 +21,4 @@ layout: default
     {% include news_contents.html -%}
     <div class="clear"></div>
   </div>
-    </div>
 </section>
