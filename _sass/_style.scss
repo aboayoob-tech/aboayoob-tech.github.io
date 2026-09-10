@@ -48,6 +48,11 @@ body {
 }
 
 /* Sections */
+section {
+  float: right;
+  width: 85%;
+  clear: both;
+}
 
 header,
 section,
