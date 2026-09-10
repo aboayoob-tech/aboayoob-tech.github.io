@@ -1,9 +1,31 @@
+<style>
+  body.wrap {
+    max-width: 1200px !important;
+    width: 88% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .content-container {
+    max-width: 1200px !important;
+    width: 88% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+</style>
+
+
 {%- include top.html -%}
 
 <body class="wrap">
   {%- include header.html -%}
 
+<div class="content-container">
   {{- content -}}
+</div>
+
 
   {%- include footer.html -%}
   {%- include anchor_links.html -%}
