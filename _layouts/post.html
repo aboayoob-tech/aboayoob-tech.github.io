@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<style>
+  .post-container {
+    width: 88%;
+    max-width: 900px; /* عرض مثالي ومريح لقراءة المقالات المفردة */
+    margin: 40px auto;
+    box-sizing: border-box;
+  }
+  .post-container article {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+  }
+</style>
+
+<div class="post-container">
+  <article itemscope itemtype="http://schema.org/Article">
+    <h1 itemprop="headline" class="post-title">{{ page.title }}</h1>
+    
+    <div class="post-meta" style="margin-bottom: 20px; color: #666; font-size: 0.9rem;">
+      <span itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">
+        {{ page.date | date_to_string }}
+      </span>
+    </div>
+
+    <div class="post-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+  </article>
+</div>
