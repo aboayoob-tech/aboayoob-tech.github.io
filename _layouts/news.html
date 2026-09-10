@@ -2,7 +2,19 @@
 layout: default
 ---
 
+<style>
+.my-container {
+  max-width: 1140px; /* العرض الأقصى المشابه لـ Bootstrap */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+</style>
 <section class="news">
+  <div class="my-container">
   <div class="grid">
     {% include news_contents_mobile.html -%}
     <div class="unit four-fifths">
@@ -11,4 +23,5 @@ layout: default
     {% include news_contents.html -%}
     <div class="clear"></div>
   </div>
+    </div>
 </section>
