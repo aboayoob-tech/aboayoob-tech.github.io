@@ -1,14 +1,11 @@
 ---
-title: خط المهند (AL-Mohanad)
-slug: al-mohanad
-published_date: 2026-09-02T06:30:00+00:00
-tags: blog, css, family, feed, font, html, size, unicode, woff, woff2
-publish: true
-make_discoverable: true
-is_page: false
-canonical_url: https://44kg.bearblog.dev/al-mohanad/
-meta_description: خط المهند المتفرع من خطوط النسخ العربي
+layout: post
+title: "خط المهند (AL-Mohanad)"
+slug: "al-mohanad"
+date: 2026-09-10 10:00:00 +0300
+tags: [family, blog, css,size, unicode, woff, woff2]
 meta_image: https://44kg.com/images/post_img/Notepad_plus_plus.png
+meta_description: خط المهند المتفرع من خطوط النسخ العربي
 class_name: 44kg-style
 ---
 
